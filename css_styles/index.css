@@ -2,14 +2,18 @@ html {
     background-color: rgba(255, 255, 255, 0)
 }
 
+body {
+    background-color: rgb(220, 220, 220);
+}
+
 .blashka {
     display: block;
-    background-color: aqua;
+    background: linear-gradient(rgb(192, 192, 231), rgba(230, 230, 240, 0.445));
     width: max(50%, 200px);
     height: min(10vh, 100px);
     margin-left: 25%;
     margin-top: 1vw;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .logo img {
@@ -22,10 +26,23 @@ html {
 .bottons {
     display: flex;
     position: absolute;
-    margin-left: 51%;
+    margin-left: 52%;
     gap: 15px;
     margin-top: -60px;
 }
+
+.about_goup font {
+    color: rgb(19, 31, 31);
+}
+
+.about_prof font {
+    color: rgb(19, 31, 31);
+}
+
+.kontact font {
+    color: rgb(19, 31, 31);
+}
+
 
 section {
     display: block;
